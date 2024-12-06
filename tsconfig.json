@@ -11,7 +11,18 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "types": ["node", "electron"],
-    "skipLibCheck": true
+    "skipLibCheck": true,
+    // "baseUrl": ".",
+    // "paths": {
+    //   "@config/*": ["./src/server/config/*"],
+    //   "@controllers/*": ["./src/server/controllers/*"],
+    //   "@middlewares/*": ["./src/server/middlewares/*"],
+    //   "@models/*": ["./src/server/models/*"],
+    //   "@routes/*": ["./src/server/routes/*"],
+    //   "@services/*": ["./src/server/services/*"],
+    //   "@utils/*": ["./src/server/utils/*"],
+    //   "@types/*": ["./src/server/types/*"]
+    // },
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "dist"]
