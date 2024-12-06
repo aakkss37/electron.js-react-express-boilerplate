@@ -84,6 +84,7 @@ electron_react_app/
 ├── tsconfig.json                   # Root TypeScript configuration
 ├── webpack.main.config.cjs         # Webpack config for Electron main process
 ├── webpack.renderer.config.cjs     # Webpack config for Electron renderer process
+```
 
 2. Install dependencies for the Electron app and React client:
    ```bash
