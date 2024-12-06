@@ -13,7 +13,7 @@ Ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/aakkss37/electron.js-react-express-boilerplate.git
    cd electron_react_app
    ```
 
