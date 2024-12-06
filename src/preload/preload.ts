@@ -3,13 +3,6 @@ import { contextBridge, ipcRenderer } from 'electron';
 import { IPCChannels, ToMainPayload, FromMainPayload } from '../types/types';
 
 
-
-console.log('Preload script loaded');
-console.log('Preload script loaded');
-console.log('Preload script loaded');
-console.log('Preload script loaded');
-console.log('Preload script loaded');
-
 contextBridge.exposeInMainWorld('electronAPI', {
     sendMessage: (channel: IPCChannels, data: ToMainPayload) => {
         const validChannels: IPCChannels[] = ['toMain'];
